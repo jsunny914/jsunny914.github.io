@@ -55,6 +55,18 @@ body {
   font-size: 1em;
 }
 
+/* Home */ 
+
+.video_container {
+  text-align: center;
+}
+
+video {
+  width: 70%; 
+  margin: auto;
+  padding: 20px;
+}
+
 /* About Us */
 
 .people {
@@ -64,7 +76,21 @@ body {
 }
 
 .person {
+  display: flex;
   flex-direction: row; 
+  justify-content: center; 
+}
+
+@media only screen and (max-width: 600px) {
+  .person {
+    flex-direction: column; 
+  }
+}
+
+.bio {
+  width: 30%;
+  padding: 20px;
+  text-align: left;
 }
 
 .name {
@@ -78,4 +104,5 @@ body {
   width: 200px;
   height: 200px; 
   object-fit: cover; 
+  padding: 20px;
 }
