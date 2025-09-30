@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>LIS 500 Project</title>
+    <title>LIS 500 Project 2 - About Us</title>
     <link rel="stylesheet" href="stylepage.css">
   </head>
   <body>
+    <!-- See index.html for comments on 'header', nav, or 'footer'-->
     <div class="header">
       <h1>LIS 500 Project</h1>
       <p>Group: Thomas Reineck, Sarah Schepp, Jyolsna Sunny</p>
     </div>
 
+    <!--Class 'active_tab' indicates this is the about us page-->
     <nav id="menu">
       <a href="index.html">Home</a>
       <a href="aboutus.html" class='active_tab'>About Us</a>
@@ -22,28 +24,33 @@
 
     <main>
       <div class="people">
+        <!--Each person has a name, a photo, and a biography-->
+        <!--Name is outside the 'person' class so it can be centered while the others are not-->
+        <!--Photo and bio are in same div so they can be placed in the same row using flexbox-->
           <div class="name">Thomas Reineck</div>
           <div class="person">  
               <div class="photo">
-                  <img src="thomas.png"/>
+                  <img src="thomas.png" alt="Photo of Thomas Reineck"/>
               </div>
               <div class="bio">
                   <p>Thomas Reineck (they/them) is a public historian, writer, and author of, "The Fledgling Führers: A Comparative Study of Interwar Fascist Movements in Britain and the U.S," available at Minds@UW. In 2023, they graduated from the UW-Eau Claire with a Master of Arts degree in Public History. They have over five years of experience in the field, through reference work in libraries, collection processing at historical societies, exhibition creation at museums, and archiving at universities. Presently, they are in their second year of UW-Madison's Library and Information Studies M.A. program. As a public historian, they strive to educate the public by providing access to decentered and multi-lensed histories, whether that be in the exhibition, or the archive.</p>
               </div>
           </div>
+
           <div class="name">Sarah Schepp</div>
           <div class="person">    
               <div class="photo">
-                  <img src="sarah.jpg"/>
+                  <img src="sarah.jpg" alt="Photo of Sarah Schepp"/>
               </div>
               <div class="bio">
                   <p>Sarah Schepp (she/her) is a elementary school paraprofessional, library page, and returning M.A. LIS student at UW-Madison. She graduated from St. Norbert College in May 2022 with a major in English and a minor in Women and Gender Studies. She strives to make a difference every day in her community, and she is the oldest of three children.</p>
               </div>
           </div>
+
           <div class="name">Jyolsna Sunny</div>
           <div class="person">
               <div class="photo">
-                  <img src="jyolsna.jpg"/>
+                  <img src="jyolsna.jpg" alt="Photo of Jyolsna Sunny"/>
               </div>
               <div class="bio">
                   <p>Jyolsna Sunny (they/them) is a software developer and a first-year M.A. LIS student at UW-Madison. They did their undergraduate program in computer science at Rutgers University. After working as a software developer, they realized they missed their previous job as a library page and decided to pursue library studies.</p>
