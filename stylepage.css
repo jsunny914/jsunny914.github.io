@@ -53,6 +53,10 @@ main {
   background: var(--light);
 }
 
+main h1,h2,h3,p {
+  padding: 0 20px; 
+}
+
 .footer {
   background: var(--dark);
   color: var(--light);
@@ -106,6 +110,17 @@ main {
 .photo img{
   width: 200px;
   height: 200px; 
+  object-fit: cover; 
+  padding: 20px;
+}
+
+/* Resources */
+
+/* Tech Hero */ 
+
+.techheroimg {
+  width: 300px;
+  height: 300px; 
   object-fit: cover; 
   padding: 20px;
 }
