@@ -57,17 +57,25 @@ main h1,h2,h3,p {
   padding: 0 20px; 
 }
 
+img {
+  border-style: double;
+}
+
 .footer {
   background: var(--dark);
   color: var(--light);
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   margin: 0px;
   font-size: 1em;
   float: bottom;
 }
 
 /* Home */ 
+
+.intro {
+  text-align: center;
+}
 
 .video_container {
   text-align: center;
@@ -116,11 +124,23 @@ main h1,h2,h3,p {
 
 /* Resources */
 
+.resourcesection {
+  padding: 10px;
+  margin: 10px 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
 /* Tech Hero */ 
+
+.techhero {
+  padding: 10px;
+  margin: 10px 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
 
 .techheroimg {
   width: 300px;
   height: 300px; 
   object-fit: cover; 
-  padding: 20px;
+  padding: 10px;
 }
