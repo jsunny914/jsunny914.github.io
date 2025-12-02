@@ -57,8 +57,13 @@ main h1,h2,h3,p {
   padding: 0 20px; 
 }
 
+main p {
+  font-size: 18px;
+}
+
 img {
   border-style: double;
+  padding: 10px;
 }
 
 .footer {
@@ -119,7 +124,6 @@ img {
   width: 200px;
   height: 200px; 
   object-fit: cover; 
-  padding: 20px;
 }
 
 /* Resources */
@@ -127,7 +131,9 @@ img {
 .resourcesection {
   padding: 10px;
   margin: 10px 50px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+  border-left: 5px solid var(--dark);
+  border-radius: 5px; 
 }
 
 /* Tech Hero */ 
@@ -135,14 +141,15 @@ img {
 .techhero {
   padding: 10px;
   margin: 10px 50px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5); 
+  border-left: 5px solid var(--dark);
+  border-radius: 5px;
 }
 
 .techheroimg {
   width: 300px;
   height: 300px; 
   object-fit: cover; 
-  padding: 10px;
 }
 
 /* ML Project */
@@ -150,5 +157,17 @@ img {
 .mlsection {
   padding: 10px;
   margin: 10px 50px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5); 
+  border-left: 5px solid var(--dark);
+  border-radius: 5px;
+}
+
+.livedemo {
+  text-align: center;
+}
+
+.webcam-container {
+}
+
+.label-container {
 }
