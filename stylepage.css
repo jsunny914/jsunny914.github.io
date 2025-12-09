@@ -170,7 +170,7 @@ img {
   margin: 0 10px;
 }
 
-.mlimage > img {
+.mlimage img {
     height: 250px;
 
 }
